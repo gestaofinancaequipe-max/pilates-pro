@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Inter", system-ui, sans-serif;
+  color: #333333;
+  background-color: #E8F4F8;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #E8F4F8;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.glass-panel {
+  @apply rounded-3xl bg-white/80 backdrop-blur-md shadow-soft;
+}
+
+.cta-button {
+  @apply inline-flex items-center justify-center rounded-full bg-coral px-6 py-3 text-sm font-semibold uppercase tracking-wide text-white transition-transform duration-200 ease-in-out-soft hover:-translate-y-0.5 hover:shadow-card focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-coral;
+}

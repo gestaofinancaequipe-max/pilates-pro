@@ -1,0 +1,26 @@
+{
+  "name": "Pilates Pro",
+  "short_name": "PilatesPro",
+  "description": "Biblioteca de exercícios de Pilates voltada para professores e educadores físicos.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#E8F4F8",
+  "theme_color": "#D4916C",
+  "lang": "pt-BR",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/icon-192.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512",
+      "purpose": "any"
+    }
+  ]
+}
+
