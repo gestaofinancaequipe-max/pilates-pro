@@ -18,6 +18,9 @@ export default {
         card: '0 10px 25px rgba(212, 145, 108, 0.15)',
         soft: '0 8px 20px rgba(51, 51, 51, 0.08)',
       },
+      borderRadius: {
+        '3xl': '1.5rem',
+      },
       transitionTimingFunction: {
         'in-out-soft': 'cubic-bezier(0.4, 0, 0.2, 1)',
       },

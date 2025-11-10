@@ -28,7 +28,7 @@ const ExercisePage = () => {
       <div className="grid gap-6 lg:grid-cols-[3fr_2fr]">
         <VideoPlayer video={exercise.video} title={exercise.title} />
         <div className="flex flex-col gap-6">
-          <section className="glass-panel space-y-4 p-6">
+          <section className="space-y-4 rounded-3xl bg-white/80 p-6 shadow-soft backdrop-blur-md">
             <div className="space-y-2">
               <p className="text-xs font-medium uppercase tracking-[0.3em] text-coral">
                 {equipment?.name}

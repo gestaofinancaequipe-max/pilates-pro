@@ -64,7 +64,10 @@ const HeroSection = () => (
           <li>• Mapear tags por objetivo pedagógico (controle, mobilidade, força, recuperação)</li>
           <li>• Integrar favoritos e exportação de planos de aula</li>
         </ul>
-        <Link to="/equipamentos/cadillac" className="cta-button self-start">
+        <Link
+          to="/equipamentos/cadillac"
+          className="inline-flex items-center justify-center rounded-full bg-coral px-6 py-3 text-sm font-semibold uppercase tracking-wide text-white transition-transform duration-200 ease-in-out-soft hover:-translate-y-0.5 hover:shadow-card focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-coral self-start"
+        >
           Abrir biblioteca
         </Link>
       </div>

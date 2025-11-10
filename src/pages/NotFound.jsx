@@ -13,7 +13,10 @@ const NotFoundPage = () => (
       </p>
     </div>
     <div className="flex flex-wrap justify-center gap-3">
-      <Link to="/" className="cta-button">
+      <Link
+        to="/"
+        className="inline-flex items-center justify-center rounded-full bg-coral px-6 py-3 text-sm font-semibold uppercase tracking-wide text-white transition-transform duration-200 ease-in-out-soft hover:-translate-y-0.5 hover:shadow-card focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-coral"
+      >
         Voltar ao início
       </Link>
       <Link

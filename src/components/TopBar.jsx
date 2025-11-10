@@ -35,7 +35,10 @@ const TopBar = () => (
           MVP
         </span>
       </nav>
-      <Link to="/equipamentos/cadillac" className="hidden sm:inline-flex cta-button">
+      <Link
+        to="/equipamentos/cadillac"
+        className="hidden items-center justify-center rounded-full bg-coral px-6 py-3 text-sm font-semibold uppercase tracking-wide text-white transition-transform duration-200 ease-in-out-soft hover:-translate-y-0.5 hover:shadow-card focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-coral sm:inline-flex"
+      >
         Explorar
       </Link>
     </div>
